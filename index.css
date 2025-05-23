@@ -62,6 +62,18 @@ body, p, input, textarea, button {
     height: 500px;
 }
 
+.box.Website {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
 .box.spotify {
     background-color: var(--box-colour);
     border-radius: 10px;
@@ -120,6 +132,7 @@ body, p, input, textarea, button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     margin-top: 80px;
 }
 
