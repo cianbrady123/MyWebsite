@@ -1,0 +1,85 @@
+:root {
+    --background-colour:#1C1C1E;
+    --text-colour: #E5E5E7;
+    --button-colour: #3A99D8;
+    --box-colour: #2C2C2E;
+}
+
+* {
+    background-color: var(--background-colour);
+    margin: 0;
+    padding: 0;
+    color: var(--text-colour);
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+body, p, input, textarea, button {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--text-colour);
+    padding: 20px;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.content {
+    background-color: var(--box-colour);
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+}
+
+.content h2 {
+    background-color: var(--box-colour);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content h3 {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.content p {
+    background-color: var(--box-colour);
+    font-size: 20px;
+}
+
+.content ul, li {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}

@@ -111,6 +111,12 @@ body, p, input, textarea, button {
     font-weight: bold;
 }
 
+.box h3 {
+    background-color: var(--box-colour);
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .box p {
     background-color: var(--box-colour);
     font-size: 20px;
