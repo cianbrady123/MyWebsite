@@ -1,0 +1,145 @@
+:root {
+    --background-colour:#1C1C1E;
+    --text-colour: #E5E5E7;
+    --button-colour: #3A99D8;
+    --box-colour: #2C2C2E;
+}
+
+* {
+    background-color: var(--background-colour);
+    margin: 0;
+    padding: 0;
+    color: var(--text-colour);
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+body, p, input, textarea, button {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--text-colour);
+    padding: 20px;
+}
+
+.box {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.box.CertChamps {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+}
+
+.box.spotify {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.box.CV {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    background-color: var(--box-colour);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box p {
+    background-color: var(--box-colour);
+    font-size: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.content {
+    background-color: var(--box-colour);
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h2 {
+    background-color: var(--box-colour);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content p {
+    background-color: var(--box-colour);
+    font-size: 20px;
+}
