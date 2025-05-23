@@ -1,4 +1,4 @@
-# cianbrady123.github.io
+# My Personal Website
 
 Welcome to my personal website — a portfolio of my work as an electrical engineering student and developer.
 
@@ -14,12 +14,12 @@ I'm Cian Brady, an electrical engineering student at UCD with a passion for robo
 ### 🛠️ Tech Stack
 - HTML, CSS, JavaScript
 - Hosted on GitHub Pages
-- 
 ---
 
 ### 📫 Contact
 You can find me on:
 - GitHub: [@cianbrady123](https://github.com/cianbrady123)
 - Email: cianjbrady@gmail.com
+- LinkedIn: [Cian Brady](https://www.linkedin.com/in/cian-brady-2b798428b/)
 
 Thanks for visiting!
