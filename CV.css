@@ -51,6 +51,7 @@ body, p, input, textarea, button {
     background-color: var(--box-colour);
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     border-radius: 10px;
     display: flex;
