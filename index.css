@@ -98,6 +98,30 @@ body, p, input, textarea, button {
     width: 300px;
 }
 
+.box.hongkong {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.box.portababe {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
 .box img {
     width: 300px;
     height: 300px;
@@ -120,6 +144,7 @@ body, p, input, textarea, button {
 .box p {
     background-color: var(--box-colour);
     font-size: 20px;
+    text-align: center;
 }
 
 .column {
