@@ -47,7 +47,7 @@ body, p, input, textarea, button {
     margin: 10px;
     text-decoration: none;
     width: 100%;
-    max-width: 600px;
+    max-width: 720px;
     height: 100%;
 }
 
@@ -57,9 +57,32 @@ body, p, input, textarea, button {
     font-weight: bold;
 }
 
+.box h3 {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .box p {
     background-color: var(--box-colour);
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+.box ul, li {
+    background-color: var(--box-colour);
+    font-size: 18px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.box ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .column {
