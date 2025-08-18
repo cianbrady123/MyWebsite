@@ -24,7 +24,7 @@
                     </p>
                 </a>
                 <a href="https://github.com/cianbrady123/cianbrady123.github.io" class="box Website">
-                    <h2>My website</h2>
+                    <h2>My website 🌐</h2>
                     <p>Click here to check out the github for this website and
                         see how I made it. I used HTML, CSS and JavaScript.
                     </p>
@@ -53,5 +53,29 @@
                 </a>
             </div>
         </div>
+
+        <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const cols = document.querySelectorAll('.showcase .column');
+    if (!cols.length) return;
+
+    const left = cols[0]?.querySelectorAll('.box') || [];
+    const right = cols[1]?.querySelectorAll('.box') || [];
+
+    const sequence = [];
+    const rows = Math.max(left.length, right.length);
+    for (let i = 0; i < rows; i++) {
+      if (i < left.length)  sequence.push(left[i]);
+      if (i < right.length) sequence.push(right[i]);
+    }
+
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const step = 80; // slower stagger (increase for slower)
+    sequence.forEach((el, idx) => {
+      const t = reduce ? 0 : idx * step;
+      setTimeout(() => el.classList.add('revealed'), t);
+    });
+  });
+</script>
     </body>
 </html>
