@@ -45,29 +45,11 @@ body, p, input, textarea, button {
     border-radius: 10px;
     padding: 40px;
     margin: 10px;
+    margin-bottom: 80px;
     text-decoration: none;
     width: 100%;
     max-width: 600px;
     height: 100%;
-}
-
-.imbox {
-    background-color: var(--box-colour);
-    border-radius: 10px;
-    padding: 40px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.imbox img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
 }
 
 .box h2 {
@@ -79,6 +61,15 @@ body, p, input, textarea, button {
 .box p {
     background-color: var(--box-colour);
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box ul, li {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 20px;
 }
 
 .column {
@@ -92,4 +83,15 @@ body, p, input, textarea, button {
     flex-direction: row;
     justify-content:center;
     margin-top: 80px;
+}
+
+.certchamps-embed {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }

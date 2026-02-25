@@ -61,14 +61,14 @@ body, p, input, textarea, button {
 .box.CertChamps {
     background-color: var(--box-colour);
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px 40px;
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 300px;
-    height: 500px;
+    height: 560px;
 }
 
 .box.Website {
@@ -86,13 +86,14 @@ body, p, input, textarea, button {
 .box.spotify {
     background-color: var(--box-colour);
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px 40px;
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 300px;
+    height: 500px;
 }
 
 .box.CV {
@@ -110,11 +111,11 @@ body, p, input, textarea, button {
 .box.hongkong {
     background-color: var(--box-colour);
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px 40px;
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 300px;
 }
@@ -122,18 +123,19 @@ body, p, input, textarea, button {
 .box.portababe {
     background-color: var(--box-colour);
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px 40px;
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;    
     align-items: center;
     width: 300px;
+    height: 500px;
 }
 
 .box img {
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
