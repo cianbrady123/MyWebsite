@@ -1,0 +1,108 @@
+:root {
+    --background-colour:#1C1C1E;
+    --text-colour: #E5E5E7;
+    --button-colour: #3A99D8;
+    --box-colour: #2C2C2E;
+}
+
+* {
+    background-color: var(--background-colour);
+    margin: 0;
+    padding: 0;
+    color: var(--text-colour);
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+body, p, input, textarea, button {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--text-colour);
+    padding: 20px;
+}
+
+.box {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 10px;
+    text-decoration: none;
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+}
+
+.box h2 {
+    background-color: var(--box-colour);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box h3 {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box p {
+    background-color: var(--box-colour);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box a {
+    color: var(--button-colour);
+    background-color: var(--box-colour);
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+.box img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+.box ul, li {
+    background-color: var(--box-colour);
+    font-size: 18px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.box ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 80px;
+}

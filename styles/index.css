@@ -118,6 +118,7 @@ body, p, input, textarea, button {
     justify-content: flex-start;
     align-items: center;
     width: 300px;
+    height: 560px;
 }
 
 .box.portababe {
@@ -130,7 +131,20 @@ body, p, input, textarea, button {
     justify-content: flex-start;    
     align-items: center;
     width: 300px;
-    height: 500px;
+    height: 490px;
+}
+
+.box.cleaner_grid {
+    background-color: var(--box-colour);
+    border-radius: 10px;
+    padding: 0px 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 540px;
 }
 
 .box img {
