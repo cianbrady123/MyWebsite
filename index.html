@@ -1,85 +1,19 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styles/index.css">
-        <title>Cian Brady</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <h1>Cian Brady</h1>
-            <div class="tabs">
-                <a href="./index.html">Home</a>
-                <a href="./Contact.html">Contact</a>
-            </div>
-        </div>
-        <div class="showcase">
-            <div class="column">
-                <a href="./projects/CertChamps/CertChamps.html" class="box CertChamps">
-                    <img src="./images/certchamps/CertChamps.png" alt="CertChamps Logo">
-                    <h2>CertChamps</h2>
-                    <p>Co-founder of a Leaving Cert platform designed to make practicing questions 
-                       as trivial as possible.
-                    </p>
-                </a>
-                <a href="https://github.com/cianbrady123/cianbrady123.github.io" class="box Website">
-                    <h2>My website 🌐</h2>
-                    <p>Click here to check out the github for this website and
-                        see how I made it. I used HTML, CSS and JavaScript.
-                    </p>
-                </a>
-                <a href="./projects/cleaner_grid/cleaner_grid.html" class="box cleaner_grid">
-                    <img src="./images/cleanergrid/aurafarm.png" alt="Cleaner Grid — Aura Farm">
-                    <h2>Cleaner Grid 2026</h2>
-                    <p>Won third place in EirGrid's Cleaner Grid 2026 competition taking home a €3,000 prize.</p>
-                </a>
-            </div>
-            <div class ="column">
-                <a href="https://open.spotify.com/artist/6y3hZBJ36gbwd9ACjWJYvL" class="box Spotify">
-                    <img src="./images/spotify/EPOCH.jpg" alt="Spotify Logo">
-                    <h2>Spotify</h2>
-                    <p>Fully self produced solo artist</p>
-                </a>
-                <a href="./CV.html" class="box CV">
-                    <h2>My CV 📑</h2>
-                </a>
-                <a href="./projects/hongkong/hongkong.html" class="box hongkong">
-                    <img src="./images/hongkong/finished_design.jpg" alt="Hong Kong research">
-                    <h2>CUHK - research</h2>
-                    <p>Research program at CUHK Hong Kong where I worked on
-                        an MRI-compatible soft robotic catheter
-                    </p>
-                </a>
-                <a href="./projects/portababe_v1/portababe_v1.html" class="box portababe">
-                    <img src="./images/portababe/finished.jpeg" alt="portababe">
-                    <h2>Porta-Babe-V1</h2>
-                    <p>A fun project for my girlfriend</p>
-                </a>
-            </div>
-        </div>
-
-        <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const cols = document.querySelectorAll('.showcase .column');
-    if (!cols.length) return;
-
-    const left = cols[0]?.querySelectorAll('.box') || [];
-    const right = cols[1]?.querySelectorAll('.box') || [];
-
-    const sequence = [];
-    const rows = Math.max(left.length, right.length);
-    for (let i = 0; i < rows; i++) {
-      if (i < left.length)  sequence.push(left[i]);
-      if (i < right.length) sequence.push(right[i]);
-    }
-
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const step = 80; // slower stagger (increase for slower)
-    sequence.forEach((el, idx) => {
-      const t = reduce ? 0 : idx * step;
-      setTimeout(() => el.classList.add('revealed'), t);
-    });
-  });
-</script>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cian Brady</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
