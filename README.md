@@ -47,3 +47,11 @@ Then **Settings → Pages → Build and deployment**: set **Source** to **Deploy
 - `public/CNAME` is included in the build.
 - In **Settings → Pages**, set custom domain to `www.cianbrady.ie`.
 - DNS must point at GitHub Pages (A/CNAME records per [GitHub’s docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)).
+
+### Blank page?
+
+**Do not** set Pages source to the `main` branch. That serves unbuilt source (`/src/main.tsx`), which loads as a white screen.
+
+Use **GitHub Actions** or the **`gh-pages`** branch (after `npm run deploy`), not `main`.
+
+Hard-refresh the site (Ctrl+Shift+R). Open DevTools → Console if it still fails.

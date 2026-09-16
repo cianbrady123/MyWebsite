@@ -11,7 +11,7 @@ type Props = {
 
 export default function ProjectCard({ project, theme }: Props) {
   const { ref, revealed } = useScrollReveal<HTMLAnchorElement>()
-  const className = `project-card project-card--${theme}${revealed ? ' revealed' : ''}`
+  const className = `project-card project-card--${theme} project-card--${project.id}${revealed ? ' revealed' : ''}`
 
   const content = (
     <>
@@ -29,9 +29,6 @@ export default function ProjectCard({ project, theme }: Props) {
         {project.description && (
           <p className="project-card__description">{project.description}</p>
         )}
-        <span className="project-card__cta">
-          {project.external ? 'Open →' : 'View project →'}
-        </span>
       </div>
     </>
   )

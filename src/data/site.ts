@@ -2,7 +2,7 @@ export const site = {
   name: 'Cian Brady',
   headline: 'Engineer · Musician',
   tagline:
-    'Electrical engineering at UCD, robotics, research, and software, and self-produced music on Spotify.',
+    'Microelectronics at TU Delft, and self-produced music on Spotify.',
   engineering: {
     id: 'engineering',
     title: 'Engineering',

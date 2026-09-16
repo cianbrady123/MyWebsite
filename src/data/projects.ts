@@ -15,8 +15,8 @@ export const engineeringProjects: Project[] = [
     title: 'CertChamps',
     description:
       'Co-founder of a Leaving Cert platform designed to make practicing questions as trivial as possible.',
-    image: '/images/certchamps/CertChamps.png',
-    imageAlt: 'CertChamps Logo',
+    image: '/images/certchamps/crown.png',
+    imageAlt: 'CertChamps crown logo',
     href: '/projects/certchamps',
     category: 'engineering',
   },
@@ -38,6 +38,25 @@ export const engineeringProjects: Project[] = [
     image: '/images/hongkong/finished_design.jpg',
     imageAlt: 'Hong Kong research',
     href: '/projects/hongkong',
+    category: 'engineering',
+  },
+  {
+    id: 'drum-machine',
+    title: 'Analogue Drum Machine',
+    description:
+      'PCB and analogue drum machine I designed as Robotics Officer, alongside workshops on analogue synthesis.',
+    image: '/images/drum-machine/cad.png',
+    imageAlt: 'CAD render of the analogue drum machine PCB',
+    href: '/projects/drum-machine',
+    category: 'engineering',
+  },
+  {
+    id: 'ssl-bus-comp',
+    title: 'SSL Bus Comp Clone',
+    description: 'Analogue SSL-style stereo bus compressor I am building.',
+    image: '/images/ssl-bus-comp/schematic.png',
+    imageAlt: 'SSL bus compressor clone schematic',
+    href: '/projects/ssl-bus-comp',
     category: 'engineering',
   },
   {
