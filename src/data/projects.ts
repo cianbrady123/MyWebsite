@@ -74,9 +74,9 @@ export const musicProjects: Project[] = [
   {
     id: 'spotify',
     title: 'Spotify',
-    description: 'Fully self-produced solo artist. Latest release: EPOCH.',
-    image: '/images/spotify/EPOCH.jpg',
-    imageAlt: 'Spotify, EPOCH',
+    description: 'Fully self-produced solo artist. Latest Release: LIMINAL.',
+    image: '/images/spotify/LIMINAL_image.jpeg',
+    imageAlt: 'Spotify, LIMINAL',
     href: 'https://open.spotify.com/artist/6y3hZBJ36gbwd9ACjWJYvL',
     external: true,
     category: 'music',

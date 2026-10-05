@@ -676,12 +676,6 @@ a {
   transition: transform 0.4s ease;
 }
 
-/* EPOCH artwork has a thin black strip baked into the bottom of the file */
-.project-card--music .project-card__image {
-  transform: scale(1.04);
-  transform-origin: center center;
-}
-
 .project-card--engineering:hover .project-card__image {
   transform: scale(1.03);
 }
